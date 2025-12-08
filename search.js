@@ -13,6 +13,7 @@ const siteData = [
   { name: "巨人 調製奶水", url: "/products/巨人調製奶水.html", tags: ["巨人", "奶水", "調製奶水", "乳製品","giant"] },
   { name: "DAVIA 切碎番茄罐", url: "/products/DAVIA切碎番茄罐.html", tags: ["DAVIA", "番茄罐", "番茄", "罐頭", "蕃茄罐", "蕃茄"] },
   { name: "三花調製奶水", url: "/products/三花調製奶水.html", tags: ["三花", "奶水", "調製奶水", "乳製品"] },
+  { name: "SUNLEE 特濃椰漿", url: "/products/SUNLEE椰漿.html", tags: ["SUNLEE", "SUN", "LEE","椰漿","罐頭","特濃","sun"] },
   { name: "綠巨人 玉米粒", url: "/products/綠巨人玉米粒.html", tags: ["綠巨人", "玉米粒", "玉米", "罐頭","巨人","greengiant"] },
   { name: "綠巨人 玉米醬", url: "/products/綠巨人玉米醬.html", tags: ["綠巨人", "玉米醬", "玉米", "罐頭","巨人","greengiant"] },
     // 堅果/果乾類
