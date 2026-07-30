@@ -3,175 +3,425 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>聯絡我們｜日銓貿易股份有限公司｜食品原料進口批發專線</title>
-  <meta name="description" content="歡迎聯絡日銓貿易股份有限公司，我們專營天然果乾、堅果、罐頭、義大利麵等食品原料進口批發，服務餐飲、烘焙、通路業者。提供諮詢、合作洽談、業務聯繫。">
-  <meta name="keywords" content="聯絡日銓, 食品批發, 食品原料, 合作洽談, 日銓貿易, 進口食品, 客戶服務, 進口原料, 聯絡資訊">
-  <!-- Open Graph（社群/SEO分享用） -->
+
+  <meta
+    name="description"
+    content="歡迎聯絡日銓貿易股份有限公司，我們專營天然果乾、堅果、罐頭、義大利麵等食品原料進口批發，服務餐飲、烘焙、通路業者。提供諮詢、合作洽談、業務聯繫。"
+  >
+
+  <meta
+    name="keywords"
+    content="聯絡日銓, 食品批發, 食品原料, 合作洽談, 日銓貿易, 進口食品, 客戶服務, 進口原料, 聯絡資訊"
+  >
+
+  <!-- Open Graph（社群／SEO 分享用） -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="聯絡我們｜日銓貿易股份有限公司｜食品原料進口批發專線">
-  <meta property="og:description" content="聯絡日銓貿易，洽詢食品原料進口、批發、合作與客服。專業團隊為您提供完整產品資訊與服務，歡迎來電、來信或線上留言。">
-  <meta property="og:image" content="https://www.goodfood168.com.tw/images/contact-banner.jpg">
-  <meta property="og:url" content="https://www.goodfood168.com.tw/contact.html">
+  <meta
+    property="og:title"
+    content="聯絡我們｜日銓貿易股份有限公司｜食品原料進口批發專線"
+  >
+  <meta
+    property="og:description"
+    content="聯絡日銓貿易，洽詢食品原料進口、批發、合作與客服。專業團隊為您提供完整產品資訊與服務，歡迎來電、來信或線上留言。"
+  >
+  <meta
+    property="og:image"
+    content="https://www.goodfood168.com.tw/images/contact-banner.jpg"
+  >
+  <meta
+    property="og:url"
+    content="https://www.goodfood168.com.tw/contact.html"
+  >
+
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/contact.css" />
   <link rel="icon" href="favicon.ico" type="image/x-icon">
-<script src="search.js"></script>
+
+  <script src="search.js" defer></script>
 </head>
+
 <body>
 
-<header>
+  <header>
     <a href="/" class="logo">日銓貿易股份有限公司</a>
-  
+
     <!-- 電腦版選單 -->
-    <!-- 電腦版選單 -->
-<nav class="desktop-nav">
-  <a href="../about.html">關於日銓</a>
-  <a href="../brands.html">品牌總覽</a>
-  <a href="../products.html">商品總覽</a>
-  <a href="../contact.html">聯絡我們</a>
-  <div class="nav-search-wrap">
-    <input type="text" id="site-search-input" placeholder="搜尋..." autocomplete="off" />
-    <button class="nav-search-btn"><span>🔍</span></button>
-    <div id="search-results"></div>
-  </div>
-</nav>
+    <nav class="desktop-nav">
+      <a href="../about.html">關於日銓</a>
+      <a href="../brands.html">品牌總覽</a>
+      <a href="../products.html">商品總覽</a>
+      <a href="../contact.html">聯絡我們</a>
 
-<!-- 手機版漢堡 -->
-<button class="menu-toggle" id="menuToggle">☰</button>
+      <div class="nav-search-wrap">
+        <input
+          type="text"
+          id="site-search-input"
+          placeholder="搜尋..."
+          autocomplete="off"
+        >
+        <button
+          type="button"
+          class="nav-search-btn"
+          aria-label="搜尋"
+        >
+          <span>🔍</span>
+        </button>
 
-<!-- 手機版選單 -->
-<nav class="mobile-nav" id="mobileMenu">
-  <button class="close-menu" id="closeMenu">✕</button>
-  <div class="mobile-header">選單 Menu</div>
-  <a href="../index.html">首頁</a>
-  <a href="../about.html">關於日銓</a>
-  <a href="../brands.html">品牌總覽</a>
-  <a href="../products.html">商品總覽</a>
-  <a href="../contact.html">聯絡我們</a>
-  <div class="mobile-search-wrap">
-    <input type="text" id="mobile-search-input" placeholder="搜尋..." autocomplete="off" />
-    <button class="nav-search-btn"><span>🔍</span></button>
-    <div id="mobile-search-results"></div>
-  </div>
-</nav>
+        <div id="search-results"></div>
+      </div>
+    </nav>
 
+    <!-- 手機版漢堡按鈕 -->
+    <button
+      type="button"
+      class="menu-toggle"
+      id="menuToggle"
+      aria-label="開啟選單"
+    >
+      ☰
+    </button>
+
+    <!-- 手機版選單 -->
+    <nav class="mobile-nav" id="mobileMenu">
+      <button
+        type="button"
+        class="close-menu"
+        id="closeMenu"
+        aria-label="關閉選單"
+      >
+        ✕
+      </button>
+
+      <div class="mobile-header">選單 Menu</div>
+
+      <a href="../index.html">首頁</a>
+      <a href="../about.html">關於日銓</a>
+      <a href="../brands.html">品牌總覽</a>
+      <a href="../products.html">商品總覽</a>
+      <a href="../contact.html">聯絡我們</a>
+
+      <div class="mobile-search-wrap">
+        <input
+          type="text"
+          id="mobile-search-input"
+          placeholder="搜尋..."
+          autocomplete="off"
+        >
+        <button
+          type="button"
+          class="nav-search-btn"
+          aria-label="搜尋"
+        >
+          <span>🔍</span>
+        </button>
+
+        <div id="mobile-search-results"></div>
+      </div>
+    </nav>
   </header>
 
   <!-- 主視覺區塊 -->
   <div class="hero">
-    <img src="images/contact-banner.jpg" alt="聯絡我們主視覺" />
+    <img
+      src="images/contact-banner.jpg"
+      alt="日銓貿易聯絡我們"
+    >
   </div>
 
   <!-- 主內容區塊 -->
   <main>
     <div class="contact-card">
+
       <div class="contact-text">
-        <p class="description">若您有任何商品相關問題或合作洽詢，歡迎透過以下方式與我們聯繫，我們將竭誠為您服務。</p>
+        <p class="description">
+          若您有任何商品相關問題或合作洽詢，歡迎透過以下方式與我們聯繫，我們將竭誠為您服務。
+        </p>
+
         <div class="info-grid">
-          <p><strong>公司名稱：</strong>日銓貿易股份有限公司</p>
-          <p><strong>電話：</strong>02-2610-6567</p>
-          <p><strong>Email：</strong>anjay.food@msa.hinet.net</p>
-          <p><strong>營業時間：</strong>週一至週五 am.8:30 - pm.5:30</p>
+          <p>
+            <strong>公司名稱：</strong>
+            日銓貿易股份有限公司
+          </p>
+
+          <p>
+            <strong>電話：</strong>
+            <a href="tel:0226106567">02-2610-6567</a>
+          </p>
+
+          <p>
+            <strong>Email：</strong>
+            <a href="mailto:anjay.food@msa.hinet.net">
+              anjay.food@msa.hinet.net
+            </a>
+          </p>
+
+          <p>
+            <strong>營業時間：</strong>
+            週一至週五 am.8:30 - pm.5:30
+          </p>
         </div>
       </div>
+
+      <!-- Google 地圖 -->
       <div class="map">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3623.1002451685384!2d121.41647!3d25.1542346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a50e87475ad7%3A0xe7eb5fd5dde804fd!2z5pel5pm65rCR6LuK5Zub5aSn6Ziq5biC!5e0!3m2!1szh-TW!2stw!4v1714039200000!5m2!1szh-TW!2stw"
-          allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          allowfullscreen
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="日銓貿易 Google 地圖"
+        >
         </iframe>
-        <div class="form-wrapper" style="width: 100%; margin: 3rem 0; padding: 0 1rem;">
-          <form id="contactForm" action="https://script.google.com/macros/s/AKfycbwX_66F9UyfwWSQWlwOV6CDCPlguWCrPLc5cDBWsyRh7bzaAMhHE4zIdzsoT7axpb5q/exec" method="POST" class="contact-form" onsubmit="showSuccess(event)">
-  <h2 style="text-align: center; font-size: 24px; margin-bottom: 1.5rem; color: #333;">聯絡我們 Contact Us</h2>
+      </div>
 
-  <!-- 姓名 -->
-  <label for="name" style="display: block; font-weight: 600; margin-bottom: 0.4rem; color: #444;">您的姓名</label>
-  <input type="text" name="name" id="name" required
-    placeholder="例如：陳小明"
-    style="width: 100%; padding: 0.8rem; margin-bottom: 1.2rem; border: 1px solid #ccc; border-radius: 8px; font-size: 1rem;">
+      <!-- 聯絡表單 -->
+      <div
+        class="form-wrapper"
+        style="width: 100%; margin: 3rem 0; padding: 0 1rem;"
+      >
+        <form
+          id="contactForm"
+          action="https://script.google.com/macros/s/AKfycbwX_66F9UyfwWSQWlwOV6CDCPlguWCrPLc5cDBWsyRh7bzaAMhHE4zIdzsoT7axpb5q/exec"
+          method="POST"
+          class="contact-form"
+        >
 
-  <!-- 電話 -->
-  <label for="phone" style="display: block; font-weight: 600; margin-bottom: 0.4rem; color: #444;">聯絡電話</label>
-  <input type="tel" name="phone" id="phone" required
-    placeholder="例如：0912-345-678 or 01-2345-6789"
-    style="width: 100%; padding: 0.8rem; margin-bottom: 1.2rem; border: 1px solid #ccc; border-radius: 8px; font-size: 1rem;">
+          <h2
+            style="text-align: center; font-size: 24px; margin-bottom: 1.5rem; color: #333;"
+          >
+            聯絡我們 Contact Us
+          </h2>
 
-  <!-- 公司名稱/縣市區域 -->
-  <label for="company" style="display: block; font-weight: 600; margin-bottom: 0.4rem; color: #444;">公司名稱/縣市區域</label>
-  <input type="text" name="company" id="company" required
-    placeholder="例如：日銓貿易股份有限公司/新北市八里區"
-    style="width: 100%; padding: 0.8rem; margin-bottom: 1.2rem; border: 1px solid #ccc; border-radius: 8px; font-size: 1rem;">
+          <!-- 姓名 -->
+          <label
+            for="name"
+            style="display: block; font-weight: 600; margin-bottom: 0.4rem; color: #444;"
+          >
+            您的姓名
+          </label>
 
-  <!-- 詢問內容 -->
-  <label for="message" style="display: block; font-weight: 600; margin-bottom: 0.4rem; color: #444;">詢問內容</label>
-  <textarea name="message" id="message" rows="6" required
-    placeholder="請輸入您想了解的商品以及需求量"
-    style="width: 100%; padding: 0.8rem; margin-bottom: 1.2rem; border: 1px solid #ccc; border-radius: 8px; font-size: 1rem;"></textarea>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            required
+            autocomplete="name"
+            placeholder="例如：陳小明"
+            style="width: 100%; padding: 0.8rem; margin-bottom: 1.2rem; border: 1px solid #ccc; border-radius: 8px; font-size: 1rem;"
+          >
 
-  <!-- 按鈕與成功訊息照舊 -->
-  <button type="submit" id="submitBtn" style="padding: 0.6rem 1.5rem; background-color: #333; color: #fff; border: none; border-radius: 6px; font-size: 1rem; margin-right: 1rem;">發送</button>
-  <button type="reset" style="padding: 0.6rem 1.5rem; background-color: #333; color: #fff; border: none; border-radius: 6px; font-size: 1rem;">清除</button>
-  <p style="font-size: 0.9rem; color: #666; margin-top: 1rem;">📬 留言送出後，我們會立刻收到，請不要連續點擊發送喔！<br>若系統顯示成功，我們就有收到，會儘快與您聯繫 🙏</p>
-  <p id="successMessage" style="margin-top: 1rem; color: green; font-weight: bold; display: none;">✅ 已成功送出，謝謝您的留言！</p>
-</form>
-        </div>       
+          <!-- 電話 -->
+          <label
+            for="phone"
+            style="display: block; font-weight: 600; margin-bottom: 0.4rem; color: #444;"
+          >
+            聯絡電話
+          </label>
+
+          <input
+            type="tel"
+            name="phone"
+            id="phone"
+            required
+            autocomplete="tel"
+            placeholder="例如：0912-345-678 或 02-1234-5678"
+            style="width: 100%; padding: 0.8rem; margin-bottom: 1.2rem; border: 1px solid #ccc; border-radius: 8px; font-size: 1rem;"
+          >
+
+          <!-- Email -->
+          <label
+            for="email"
+            style="display: block; font-weight: 600; margin-bottom: 0.4rem; color: #444;"
+          >
+            Email
+          </label>
+
+          <input
+            type="email"
+            name="email"
+            id="email"
+            required
+            autocomplete="email"
+            placeholder="例如：example@gmail.com"
+            style="width: 100%; padding: 0.8rem; margin-bottom: 1.2rem; border: 1px solid #ccc; border-radius: 8px; font-size: 1rem;"
+          >
+
+          <!-- 公司名稱／縣市區域 -->
+          <label
+            for="company"
+            style="display: block; font-weight: 600; margin-bottom: 0.4rem; color: #444;"
+          >
+            公司名稱／縣市區域
+          </label>
+
+          <input
+            type="text"
+            name="company"
+            id="company"
+            required
+            autocomplete="organization"
+            placeholder="例如：日銓貿易股份有限公司／新北市八里區"
+            style="width: 100%; padding: 0.8rem; margin-bottom: 1.2rem; border: 1px solid #ccc; border-radius: 8px; font-size: 1rem;"
+          >
+
+          <!-- 詢問內容 -->
+          <label
+            for="message"
+            style="display: block; font-weight: 600; margin-bottom: 0.4rem; color: #444;"
+          >
+            詢問內容
+          </label>
+
+          <textarea
+            name="message"
+            id="message"
+            rows="6"
+            required
+            placeholder="請輸入您想了解的商品以及需求量"
+            style="width: 100%; padding: 0.8rem; margin-bottom: 1.2rem; border: 1px solid #ccc; border-radius: 8px; font-size: 1rem;"
+          ></textarea>
+
+          <!-- 按鈕 -->
+          <button
+            type="submit"
+            id="submitBtn"
+            style="padding: 0.6rem 1.5rem; background-color: #333; color: #fff; border: none; border-radius: 6px; font-size: 1rem; margin-right: 1rem; cursor: pointer;"
+          >
+            發送
+          </button>
+
+          <button
+            type="reset"
+            id="resetBtn"
+            style="padding: 0.6rem 1.5rem; background-color: #333; color: #fff; border: none; border-radius: 6px; font-size: 1rem; cursor: pointer;"
+          >
+            清除
+          </button>
+
+          <p
+            style="font-size: 0.9rem; color: #666; margin-top: 1rem;"
+          >
+            📬 留言送出後，我們會立刻收到，請不要連續點擊發送喔！
+            <br>
+            若系統顯示成功，我們就有收到，會儘快與您聯繫 🙏
+          </p>
+
+          <p
+            id="successMessage"
+            style="margin-top: 1rem; color: green; font-weight: bold; display: none;"
+          >
+            ✅ 已成功送出，謝謝您的留言！
+          </p>
+        </form>
+      </div>
+
+    </div>
   </main>
 
-  <footer style="background-color: #f9f9f9; padding: 2rem 1rem; text-align: center; font-size: 0.95rem; color: #444; line-height: 1.6; border-top: 1px solid #ddd;">
-   <div style="margin-bottom: 0.5rem; font-weight: 600;">
-    &copy; 2025 日銓貿易股份有限公司｜統一編號：80548516
-   </div>
-   <div>
-     連絡電話：02-2610-6567｜服務時間：週一至週五 am.8:30 - pm.5:30<br>
-     Email：<a href="mailto:anjay.food@msa.hinet.net" style="color: #333; text-decoration: underline;">anjay.food@msa.hinet.net</a>
-   </div>
-   <p style="margin-top: 1.5rem; font-size: 0.85rem; color: #777;">
-     本網站填寫之資料僅供聯絡與服務用途，我們尊重您的個人隱私，不會任意揭露或轉售您的資料。<br>
-     本網站資訊僅供參考，如有錯誤或更新，本站保留最終解釋權，若因技術問題導致資料遺失，本公司不負相關責任。<br>
-     詳細內容請參閱：<a href="privacy.html" style="color: #666;">隱私權政策</a>｜<a href="disclaimer.html" style="color: #666;">免責聲明</a>
-   </p>
+  <footer
+    style="background-color: #f9f9f9; padding: 2rem 1rem; text-align: center; font-size: 0.95rem; color: #444; line-height: 1.6; border-top: 1px solid #ddd;"
+  >
+    <div
+      style="margin-bottom: 0.5rem; font-weight: 600;"
+    >
+      &copy; 2025 日銓貿易股份有限公司｜統一編號：80548516
+    </div>
+
+    <div>
+      聯絡電話：
+      <a
+        href="tel:0226106567"
+        style="color: #333; text-decoration: underline;"
+      >
+        02-2610-6567
+      </a>
+
+      ｜服務時間：週一至週五 am.8:30 - pm.5:30
+      <br>
+
+      Email：
+      <a
+        href="mailto:anjay.food@msa.hinet.net"
+        style="color: #333; text-decoration: underline;"
+      >
+        anjay.food@msa.hinet.net
+      </a>
+    </div>
+
+    <p
+      style="margin-top: 1.5rem; font-size: 0.85rem; color: #777;"
+    >
+      本網站填寫之資料僅供聯絡與服務用途，我們尊重您的個人隱私，不會任意揭露或轉售您的資料。
+      <br>
+      本網站資訊僅供參考，如有錯誤或更新，本站保留最終解釋權，若因技術問題導致資料遺失，本公司不負相關責任。
+      <br>
+      詳細內容請參閱：
+      <a href="privacy.html" style="color: #666;">
+        隱私權政策
+      </a>
+      ｜
+      <a href="disclaimer.html" style="color: #666;">
+        免責聲明
+      </a>
+    </p>
   </footer>
+
   <script>
     const menuToggle = document.getElementById("menuToggle");
     const mobileMenu = document.getElementById("mobileMenu");
     const closeMenu = document.getElementById("closeMenu");
-  
-    menuToggle.addEventListener("click", () => {
-      mobileMenu.classList.add("open");
-    });
-  
-    closeMenu.addEventListener("click", () => {
-      mobileMenu.classList.remove("open");
-    });
-    const form = document.getElementById('contactForm');
-  const successMessage = document.getElementById('successMessage');
-  const submitBtn = document.getElementById('submitBtn');
 
-  form.addEventListener('submit', async function (e) {
-    e.preventDefault();
-
-    // 防連點
-    submitBtn.disabled = true;
-    submitBtn.textContent = '發送中...';
-
-    const formData = new FormData(form);
-
-    try {
-      await fetch(form.action, {
-        method: 'POST',
-        body: formData,
-        mode: 'no-cors'
+    if (menuToggle && mobileMenu) {
+      menuToggle.addEventListener("click", function () {
+        mobileMenu.classList.add("open");
       });
-
-      form.reset();
-      successMessage.style.display = 'block';
-    } catch (err) {
-      alert('❌ 傳送失敗，請稍後再試。');
     }
 
-    // 恢復按鈕
-    submitBtn.disabled = false;
-    submitBtn.textContent = '發送';
-  });
+    if (closeMenu && mobileMenu) {
+      closeMenu.addEventListener("click", function () {
+        mobileMenu.classList.remove("open");
+      });
+    }
+
+    const form = document.getElementById("contactForm");
+    const successMessage = document.getElementById("successMessage");
+    const submitBtn = document.getElementById("submitBtn");
+    const resetBtn = document.getElementById("resetBtn");
+
+    form.addEventListener("submit", async function (event) {
+      event.preventDefault();
+
+      successMessage.style.display = "none";
+
+      submitBtn.disabled = true;
+      submitBtn.textContent = "發送中...";
+
+      const formData = new FormData(form);
+
+      try {
+        await fetch(form.action, {
+          method: "POST",
+          body: formData,
+          mode: "no-cors"
+        });
+
+        form.reset();
+        successMessage.style.display = "block";
+      } catch (error) {
+        console.error("表單傳送失敗：", error);
+        alert("❌ 傳送失敗，請稍後再試。");
+      } finally {
+        submitBtn.disabled = false;
+        submitBtn.textContent = "發送";
+      }
+    });
+
+    resetBtn.addEventListener("click", function () {
+      successMessage.style.display = "none";
+    });
   </script>
+
 </body>
 </html>
